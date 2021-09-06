@@ -1,1 +1,37 @@
-.navbar{
+.main__btn{
+    
+        border-radius: 0%;
+        border: 2px solid $smoky-black;
+        color: $smoky-black;
+        font-family: $raleway;
+        font-size: $medium;
+   
+        width: 140px;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        
+        font-weight: bold;
+        &:hover{
+            border-color: $quick-silver;
+        }
+        &:focus{
+            color: $quick-silver;
+            border-color: $quick-silver;
+        }
+    }
+
+    
+.btn__subscribe {
+    border-radius: 0%;
+    margin: 0;
+    color: #0C0910;
+    font-family: "Old Standard TT", serif;
+    font-weight: bold;
+    font-size: 18px;
+    transform: rotate(90deg);
+    right: 36.5rem;
+    bottom: 3rem;
+    position: absolute;
+}
+
