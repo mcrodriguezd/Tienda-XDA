@@ -1,2 +1,13 @@
 /* Base Typography*/
- 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+h1 {
+    text-align: justify;
+    font-family: $oldStandard;
+    font-weight: bold;
+  }
+  
+  h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: $quick-silver;
+  }

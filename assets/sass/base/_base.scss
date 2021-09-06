@@ -1,1 +1,53 @@
-//Base Styles
+/* Base Styles
+   ========================================================================== */
+body {
+padding-left: 5%;
+padding-right: 5%;
+
+}
+
+
+  
+  
+   /* Cambia el flujo del HTML pudiendo flotar los elementos a la derecha
+   */
+  .float {
+    float: right;
+  }
+  
+  /**
+   * Limpia el flujo del HTML luego de usar floats
+   */
+  .clear {
+    clear: both;
+  }
+
+  
+     
+  
+      @media only screen and( min-width: 480px) {
+        body {
+          width: 50vw;
+            }
+            }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                width: 75vw;
+                .clear {
+                  clear: both;
+                }
+                .main {
+                  float: left;
+                }
+                
+                }
+                }
+
+            @media only screen and (min-width: 992px) {
+                body {
+                    width: 100%;
+                   
+}
+                    }
+                     
